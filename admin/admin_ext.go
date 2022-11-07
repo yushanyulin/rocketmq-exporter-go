@@ -121,6 +121,10 @@ type ListTopicResponse struct {
 func (admin *adminExt) QueryBrokerClusterInfo() (*ClusterInfo, error) {
 	clusterInfo, err := admin.namesrv.QueryBrokerClusterInfoFromServer()
 
+	if err != nil {
+		return nil, err
+	}
+
 	var brokerDataTable = make(map[string]*BrokerData)
 
 	for brokerName, broker := range clusterInfo.BrokerDataTable {
