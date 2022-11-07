@@ -75,7 +75,7 @@ docker buildx build --platform [platform] -t [tag] . [--push]
 > Note: if you meet **error: multiple platforms feature is currently not supported for docker driver. Please switch to a different driver (eg. "docker buildx create --use")** , you should create a new [driver](https://docs.docker.com/engine/reference/commandline/buildx_create/)
 
 ### Docker Run
-```shell
+```shellQueryBrokerClusterInfo
 docker run -it --rm -p 9999:9999 [imageTag] --rocketmq.nameserver=[nameserverIp]
 ```
 
@@ -225,7 +225,7 @@ Contribute
 
 If you like Rocketmq Exporter, please give me a star. This will help more people know Rocketmq Exporter.
 
-Please feel free to send me [pull requests](https://github.com/liuymcn/rocketmq-exporter-go/pulls).
+Please feel free to send me [pull requests](https://github.com/yushanyulin/rocketmq-exporter-go/pulls).
 
 Task List
 
@@ -245,16 +245,11 @@ Contributors ✨
 
 Thanks goes to these wonderful people:
 
-<a href="https://github.com/liuymcn/rocketmq-exporter-go/graphs/contributors"> come on! </a>
+<a href="https://github.com/yushanyulin/rocketmq-exporter-go/graphs/contributors"> come on! </a>
 
-Donation
---------
 
-Your donation will encourage me to continue to improve Rocketmq Exporter. Support Alipay donation.
-
-![](https://github.com/liuymcn/rocketmq-exporter-go/raw/main/alipay.png)
 
 License
 -------
 
-Code is licensed under the [Apache License 2.0](https://github.com/liuymcn/rocketmq-exporter-go/blob/main/LICENSE).
+Code is licensed under the [Apache License 2.0](https://github.com/yushanyulin/rocketmq-exporter-go/blob/main/LICENSE).
