@@ -1,4 +1,4 @@
-FROM quay.io/prometheus/busybox:latest
+FROM busybox:1.31.1
 
 
 ARG TARGETOS
